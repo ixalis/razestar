@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Basic programs
+pacman -S zsh
+pacman -S vim
+pacman -S ranger
+pacman -S python
+pacman -S gcc
+pacman -S htop
+pacman -S firefox
+pacman -S evince
+
+#Extra programs
+pacman -S steam
+pacman -S discord
+pacman -S feh
+pacman -S imagemagick
+pacman -S burpsuite
+pacman -S nmap
+pacman -S signal
+pacman -S wireshark-cli

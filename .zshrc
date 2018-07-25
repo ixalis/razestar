@@ -30,3 +30,4 @@ export LANG
 #aliases
 alias mit='mosh --ssh="ssh -K" --server="athrun mosh_project mosh-server" ixa@gore.mit.edu' 
 alias config='/usr/bin/git --git-dir=/home/ixa/.cfg/ --work-tree=/home/ixa'
+alias venv='source ./venv/bin/activate'

@@ -1,0 +1,9 @@
+[user]
+	name = Isha Gani
+	email = ixa@mit.edu
+[core]
+	editor = vim
+[credential]
+	helper = 
+[color]
+	ui = true

@@ -1,0 +1,8 @@
+@-moz-document url("about:home"), url("about:newtab"){
+ body { 
+	background-image: url("bg5.jpg") !important;
+	background-size: cover !important;}
+ input {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color: #FFFFFF !important;}
+}

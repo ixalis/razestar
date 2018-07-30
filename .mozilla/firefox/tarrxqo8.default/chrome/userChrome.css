@@ -1,0 +1,4 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+*|*.textbox-input:-moz-placeholder { color:transparent !important; }
+*|*.textbox-input:-moz-placeholder:hover { color:transparent !important; }

@@ -43,24 +43,26 @@ cursor_shape = ibeam
 foreground      = #cccccc
 foreground_bold = #cccccc
 cursor          = #cccccc
-background      = #000000
+#background      = #000000
+background = rgba(0, 0, 0, 0.8)
+#background	= #090011
 highlight = #2f2f2f
 
 # black
 color0  = #000000
-color8  = #766e6b
+color8  = #000000
 
 # red
-color1  = #f22c40
-color9  = #f22c40
+color1  = #480080
+color9  = #480080
 
 # green
 color2  = #5ab738
 color10 = #5ab738
 
 # yellow
-color3  = #d5911a
-color11 = #d5911a
+color3  = #f22c40
+color11 = #f22c40
 
 # blue
 color4  = #407ee7
@@ -77,15 +79,3 @@ color14 = #00ad9c
 # white
 color7  = #cccccc
 color15 = #f1efee
-[hints]
-#font = Monospace 12
-#foreground = #dcdccc
-#background = #000000
-#active_foreground = #e68080
-#active_background = #000000
-#padding = 2
-#border = #3f3f3f
-#border_width = 0.5
-#roundness = 2.0
-
-# vim: ft=dosini cms=#%s

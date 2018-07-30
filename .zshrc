@@ -19,7 +19,7 @@ alias ls='ls --color=auto'
 export TERMINAL=termite
 
 setopt PROMPT_SUBST
-PROMPT="%{$fg[red]%}%n@%m%{$fg[white]%} %~%# %{$reset_color"
+PROMPT="%{$fg[yellow]%}%n@%m%{$fg[white]%} %~%# %{$reset_color"
 
 #GPG agent
 export GPG_TTY=$(tty)
@@ -32,7 +32,7 @@ alias mit='mosh --ssh="ssh -K" --server="athrun mosh_project mosh-server" ixa@go
 alias config='/usr/bin/git --git-dir=/home/ixa/.cfg/ --work-tree=/home/ixa'
 alias venv='source ./venv/bin/activate'
 alias open='xdg-open'
-
+alias vim='nvim'
 #functions
 intrigue (){
 	cd ~/intrigue

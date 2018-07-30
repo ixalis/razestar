@@ -1,5 +1,5 @@
 [Added Associations]
-#application/vnd.openxmlformats-officedocument.wordprocessingml.document=evince.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=zathura.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
@@ -29,5 +29,5 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
-application/pdf=evince.desktop
+application/pdf=zathura.desktop
 inode/directory=ranger.desktop
